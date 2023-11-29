@@ -53,7 +53,7 @@ def sidebar(df):
     return date
 
 # load dataset
-bike_sharing = pd.read_csv("https://raw.githubusercontent.com/kharismaKD74/Dicoding-Analysis-Bike-Sharing/main/dashboard/bike_sharing.csv?token=GHSAT0AAAAAACK5SCNNNLFM2WAPWYNWODB4ZLHEUBA")
+bike_sharing = pd.read_csv("bike_sharing.csv")
 
 date = sidebar(bike_sharing)
 if len(date) == 2:
